@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+  }
+  #backg{
+      background-image:url('../images/chicago/GALDOPHOTO_29July2020_Big+Goat_X2HG5074.jpg');  
+      background-size:cover;
+      /* background-attachment: fixed; */
+      height:1050px; padding-top:0px;
+      background-repeat: no-repeat;
+  }
+  /***********************start nav***************/
+  #pos{
+   /* make header at the top even if we scrolled down */
+      position: fixed;
+  /* made nothing be above the header while scrolling ,overflow */
+      z-index: 999;
+  }
+  #logo{
+      /* to make logo at center */
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:15px; 
+  }
+      
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:0px;
+      margin:0px;
+      background-color:none;
+      height:auto;
+      width:100%;
+  }
