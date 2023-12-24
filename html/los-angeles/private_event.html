@@ -1,0 +1,117 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title> Private_event </title>
+<link href="../../css/los-angeles/private_event.css" rel="stylesheet"> 
+</head>
+
+<body>
+  <div id="background">
+
+    <div id="pos">
+      <!-- logo pic above navbar -->
+          <a href="../entrance page.html">
+              <img src="../../images/GGLA_Logos_Final_Horizontal_WHITE.png" alt="g&g" id="logo"> 
+          </a>
+      <!-- navbar -->
+          <!-- navbar -->
+          <nav style="background-color:rgb(63, 200, 154);width:99%;margin-right: 50px;">
+            <ul class="links"> 
+                <li><a href="reservation.html" class="reservations">reservations</a></li>
+                <li><a href="menu.html" >menu</a></li>
+                <li><a href="main page los angles.html#about" >about</a></li>
+                <li><a href="private_event.html"  target="_blank">private events</a></li>
+                <li><a href="catering.html" >catering</a></li>
+            </ul>
+        </nav>
+    </div>
+
+  <div id="div1">
+    <h1><b> Private Events </b></h1> 
+    <pr>
+      <b>With varied indoor and outdoor spaces and a colorful, seasonal menu, Girl & The Goat is the ideal backdrop for your event.<br>
+      Work directly with our events team to decide your menu, seating and details — and our creative culinary team, led by Stephanie Izard, will take care of the rest.
+      </b>
+    </pr>
+  </div>
+  
+  <form  method="GET">
+    <div>
+      <h2><b>Your Contact Information</b></h2>
+      
+      <label>Fullname :</label><br>
+      <input type="text" name="full" required placeholder="enter your name"><br>
+      
+      
+      <label>Email :</label><br>
+      <input type="email" name="email" required placeholder="enter your email" value="@gmail.com"><br>
+        
+      <label>Phone Number :</label><br>
+      <input type="phone" name="phone" maxlength="11" ><br>
+    </div>
+
+    <div>
+        <h2><b>Select your desired event style</b></h2>
+      
+      <label>Event Style :</label><br>
+      <select>
+        <!-- 
+        value : is what it sent to the data base
+        selected :as a default option 
+        -->
+        <option data-text="On-premise" selected value="On-premise"><a href="#On-premise">On-premise</a></option>
+        <option data-text="Pick-Up Catering" value="Pick-Up Catering"><a href="#Pick-Up Catering">Pick-Up Catering</a></option>
+        <option data-text="Pick-Up Catering" value="full-service Catering"><a href="#Full-service Catering">Full-service Catering</a></option>
+        
+      </select>
+    </div>
+
+    <div class="event style" id="On-premise">
+      <h2><b>Your Event Details</b></h2><br><br>
+      <label>Nature of this Event(e.g., Birthday Party or Business Dinner)</label>
+      <input type="text" name="event" ><br>
+      <label>Event Date</label><br>
+      <input type="date" name="date"><br>
+      <label>Start Time</label><br>
+      <input type="time" name="Start Time"><br>
+      <label>End Time</label><br>
+      <input type="time" name="End Time"><br>
+      <label>Number of People</label><br>
+      <input type="number" name="People"><br>
+      <label>Is there any additional information you would like to add?</label><br>
+      <textarea name="mess" id="1" cols="70" rows="5"></textarea><br>
+    </div>
+    
+    
+    <div class="event style" id="Full-service Catering">
+      <h2><b>Event Address</b></h2><br><br>
+      <label>Full Address</label>
+      <input type="text" name="add" ><br>
+      
+
+      <input type="submit" value="Submit" id="find" style="background-color: rgb(126, 220, 237);">
+    </form>
+
+</div>
+      
+    <!-- footer -->
+    <div id="bgfooter">
+
+      <p style="text-align:center;padding:50px;font-size: 20px;">Join our herd, and our mailing list!</p>
+      
+      <div style="text-align: center;"><a  href="../los-angeles/logout.php" id="sign-up">Logout</a></div>
+      
+      <p style="text-align:center;padding:50px;font-size: 20px;"><b>Bring Chef Stephanie Izard’s bold, restaurant flavors home with This Little Goat!</b></p>
+      
+      <footer id="footer">&copy;2023 Boka Restaurant Group, LLC. All Rights Reserved | 
+        <a href="#">Accessibility</a>  |
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Site Map</a>
+    </footer>
+    
+    </div>
+
+</body>
+
+</html>
