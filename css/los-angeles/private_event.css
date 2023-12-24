@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-size: 20px;
+    
+    background-image: url("../../images/private_event.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;/* the values of width and hight*/
+    background-attachment: fixed;/* to make the content scroll over the fixed background*/
+
+}
+#background{
+    margin-left:7%;
+    margin-bottom: 50px;
+    -webkit-text-fill-color: white;
+}
+/***********************start nav***************/
+#pos{
+/* make header at the top even if we scrolled down */
+    position: fixed;
+/* made nothing be above the header while scrolling ,overflow */
+    z-index: 999;
+}
+#logo{
+    /* to make logo at center */
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px; 
+}
+    
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px;
+    margin:0px;
+    background-color:none;
+    height:auto;
+    width:100%;
+}
+.links{
+    padding: 10px 100px;
+}
+.links li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.links li a{
+    text-decoration: none;
+    color:white;
+    padding-left:60px;
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+li a:hover{
+    color:#2f031e;
+}
+/* end of nav styling  */
