@@ -21,3 +21,25 @@ body{
     margin-bottom:0;
     font-weight: bold;
 }
+
+.input{
+    display:block;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius:100px; */
+    width:30%;
+    /* height:100%; */
+    padding:10px;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color:bisque;
+    font-size: 25px;
+    margin-top: 75px;
+    /* margin-left:530px; */
+    margin-bottom: 50px;
+}
