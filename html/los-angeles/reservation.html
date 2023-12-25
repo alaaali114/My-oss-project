@@ -1,0 +1,81 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title> Reservation_page </title>
+<link href="../../css/los-angeles/reservation.css" rel="stylesheet"> 
+</head>
+<body>
+          
+    <div id="background">
+            
+        <!--header-->
+        <div id="pos" >
+            <!-- logo pic above navbar -->
+                <a href="../los-angeles/entrance page.php">
+                    <img src="../../images/GGLA_Logos_Final_Horizontal_WHITE.png" alt="g&g" id="logo"> 
+                </a>
+            <!-- navbar -->
+                <!-- navbar -->
+            <nav style="background-color:rgb(63, 200, 154);width:96%;margin-left: 30px;">
+                <ul class="links"> 
+                    <li><a href="reservation.php" class="reservations">reservations</a></li>
+                    <li><a href="menu.html" >menu</a></li>
+                    <li><a href="main page los angles.php#about" >about</a></li>
+                    <li><a href="private_event.php"  target="_blank">private events</a></li>
+                    <li><a href="catering.html" >catering</a></li>
+                </ul>
+             </nav>
+        </div>
+        
+        <h1 style="padding-bottom: 0;"> Make a Reservation </h1>
+        
+        <form  method="POST">
+
+            <input type="text" name="full_name" placeholder="full_name" required>
+            <select name="select">
+                <!-- 
+                value : is what it sent to the data base
+                selected :as a default option 
+                -->
+                <option value="1 person">1 person</option>
+                <option value="2 person" selected >2 person</option>
+                <option value="3 person">3 person</option>
+                <option value="4 person">4 person</option>
+                <option value="5 person">5 person</option>
+                <option value="6 person">6 person</option>
+                <option value="7 person">7 person</option>
+                <option value="8 person">8 person</option>
+                <option value="9 person">9 person</option>
+                <option value="10 person">10 person</option>
+            </select>
+            <input type="date" name="date">
+            <input type="time" name="time"> <br> <br>
+        
+            <input type="submit" name="Submit" value="Find a Table" id="find">
+
+            
+
+        </form>
+
+    </div>
+    <!-- footer -->
+    <div id="bgfooter">
+
+        <p style="text-align:center;padding:50px;font-size: 20px;">Join our herd, and our mailing list!</p>
+        
+        <a href="../los-angeles/logout.php" id="sign-up">Logout</a>
+        
+        <p style="text-align:center;padding:50px;font-size: 20px;"><b>Bring Chef Stephanie Izard’s bold, restaurant flavors home with This Little Goat!</b></p>
+        
+        <footer id="footer">&copy;2023 Boka Restaurant Group, LLC. All Rights Reserved | 
+          <a href="#">Accessibility</a>  |
+          <a href="#">Privacy Policy</a> | 
+          <a href="#">Site Map</a>
+       </footer>
+      
+    </div>
+ 
+</body>
+
+</html>
