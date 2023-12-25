@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    background-image:url(../../images/GIRL_AND_THE_GOAT_LA_RESTAURANT_DINNING_INTERIOR.jpeg);
+    background-size:cover;
+    /* background-attachment: fixed; */
+    height:1050px;
+    padding-top:0px;
+    background-repeat: no-repeat;   
+}
+/***********************start nav***************/
+#pos{
+    /* make header at the top even if we scrolled down */
+       position: fixed;
+   /* made nothing be above the header while scrolling ,overflow */
+       z-index: 999;
+ }
+#logo{
+       /* to make logo at center */
+    width: 40%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px; 
+}
+       
+nav{
+       
+    align-items: center;
+    justify-content: space-between;
+    padding:0px;
+    height:auto;
+    width:50px;
+}
+.links{
+    padding: 10px 100px;
+}
+.links li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.links li a{
+    text-decoration: none;
+    color:white;
+    padding-left:70px;
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+li a:hover{
+    color:#66e45b;
+}
+ 
+ /* end of nav styling  */
+form{
+    margin: 10px;;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+form input,select{
+    font-size: 20px;
+    width: 10%;
+    height: 8%;
+    padding: 5px;
+    margin: 5px;
+}
+#find{
+    font-size: 20px;
+    background-color: black;
+    -webkit-text-fill-color: white;
+}
+
+/* start footer*/
+#bgfooter{
+    background-image:url('../../images/Footer_Background.jpg');  
+    background-size:cover;
+    /* background-attachment: fixed; */
+    height:400px; 
+    margin-top: 0;
+    background-repeat: no-repeat;
+}
+#sign-up{
+    border: 10px;
+    text-align: center;
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+/*footer*/
+#footer{
+    /*padding means from inside*/
+    padding:10px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+}
+
+#footer a{
+   color: #000;
+}
+h1{ padding-top: 190px;
+    -webkit-text-fill-color: black;
+} 
